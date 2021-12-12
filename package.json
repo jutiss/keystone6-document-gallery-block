@@ -1,0 +1,41 @@
+{
+  "name": "keystone6-document-gallery-block",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "jutiss",
+  "main": "dist/keystone6-document-gallery-block.cjs.js",
+  "module": "dist/keystone6-document-gallery-block.esm.js",
+  "keywords": [
+    "keystone6",
+    "gallery",
+    "image-library"
+  ],
+  "scripts": {
+    "build": "preconstruct build"
+  },
+  "devDependencies": {
+    "@preconstruct/cli": "^2.1.5"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
+    "@keystone-6/core": "^1.0.0",
+    "@keystone-ui/button": "^6.0.0",
+    "@keystone-ui/core": "^4.0.0",
+    "@keystone-ui/fields": "^6.0.0",
+    "@keystone-ui/loading": "^5.0.0",
+    "@keystone-ui/modals": "^4.0.2",
+    "@keystone-ui/toast": "^4.0.4",
+    "@keystone-6/fields-document": "^1.0.0",
+    "react": "^17.0.2",
+    "typescript": "^4.4.3"
+  },
+  "engines": {
+    "node": "^12.20 || >= 14.13"
+  },
+  "bugs": {
+    "url": "https://github.com/jutiss/keystone6-document-gallery-block/issues"
+  },
+  "homepage": "https://github.com/jutiss/keystone6-document-gallery-block"
+}

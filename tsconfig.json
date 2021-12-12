@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "isolatedModules": true,
+    "esModuleInterop": true
+  },
+  "include": ["**/*"],
+  "exclude": ["**/node_modules/**/*"]
+}
