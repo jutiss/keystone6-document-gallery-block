@@ -61,7 +61,7 @@ const customFields = {
 
 export const gallery = ({ listKey }: { listKey: string }) => {
   return component({
-    component: ({ content, items }) => {
+    component: ({ capture, items }) => {
       return (
         <div>
           <NotEditable>
@@ -86,7 +86,7 @@ export const gallery = ({ listKey }: { listKey: string }) => {
             }}
           >
             <div style={{ fontStyle: "italic", color: "#4A5568" }}>
-              {content}
+              {capture}
             </div>
           </div>
         </div>

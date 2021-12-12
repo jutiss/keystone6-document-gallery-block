@@ -682,7 +682,7 @@ var gallery = function gallery(_ref3) {
   var listKey = _ref3.listKey;
   return component({
     component: function component(_ref4) {
-      var content = _ref4.content,
+      var capture = _ref4.capture,
           items = _ref4.items;
       return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(NotEditable, null, items.value.length > 0 ? /*#__PURE__*/React.createElement(GalleryItemsWrapper, null, items.value.map(function (image) {
         return /*#__PURE__*/React.createElement(GalleryItem, {
@@ -699,7 +699,7 @@ var gallery = function gallery(_ref3) {
           fontStyle: "italic",
           color: "#4A5568"
         }
-      }, content)));
+      }, capture)));
     },
     label: "Gallery",
     props: {

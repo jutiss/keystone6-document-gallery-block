@@ -1,6 +1,6 @@
 {
   "name": "keystone6-document-gallery-block",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "jutiss",
   "main": "dist/keystone6-document-gallery-block.cjs.js",
